@@ -1,9 +1,10 @@
-// Array.h
+#// Array.h
 #ifndef ARRAY_H
 #define ARRAY_H
 
 #include <stdexcept>                        // For standard exception types
 #include <string>                           // For to_string()
+#include <iostream>                         // for std::cerr
 
 template <typename T>
 class Array
